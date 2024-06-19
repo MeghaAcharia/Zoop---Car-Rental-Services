@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Rent</title>
+	<link rel="stylesheet" type="text/css" href="rent.css">
+</head>
+<body>
+	<div class="topnav">
+		<a href="home.html">Home</a>
+		<a href="gallery.html">Gallery</a>
+		<a href="about.html">About Us</a>
+	</div>
+	<div class="container">
+		<div class="contact-box">
+			<div class="left"></div>
+			<div class="right">
+				<h2>Rent a Car</h2>
+				<h3>Details</h3>
+				<p>Enter your full name, location and address of the car pick-up, 
+					pick-up date and return date of the car correctly before proceeding.</p><br>
+				<input type="text" class="field" placeholder="Your Name">
+				<label for="cars" placeholder="choose a location">Choose a pickup location:</label>
+				<select id="cars" name="cars">
+					<option value="mapusa">Mapusa</option>
+					<option value="panaji">Panaji</option>
+					<option value="margao">Margao</option>
+					<option value="vasco">Vasco</option>
+					<option value="bicholim">Bicholim</option>
+				</select><br>
+				<textarea placeholder="Enter pickup address" class="field"></textarea>
+                <label for="pickup">Pickup date:</label>
+				<input type="date" id="date" placeholder="date"><br><br>
+                <label for="return">Return date:</label>
+				<input type="date" id="date" placeholder="date"><br><br>
+				<button class="btn">Rent</button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
